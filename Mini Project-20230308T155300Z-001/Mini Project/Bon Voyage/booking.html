@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="./assets/css/booking.css">
+</head>
+<style>
+  
+  </style>
+<body>
+    <form action="/bookin" method="post">
+        <div class="title">
+          <i class="fas fa-pencil-alt"></i> 
+          <h2>Book Here</h2>
+        </div>
+        <div class="info">
+          <input class="fname" type="text" name="name" placeholder="Full name">
+          <input type="email" name="email" placeholder="Email">
+          <input type="number" name="phone" placeholder="Phone number">
+          <input type="address" name="address" placeholder="Address">
+          <input type="date" name="date" placeholder="Date"> 
+          <select name="package">
+            <option value="Tour Package" selected>Tour Package*</option>
+            <option value="Goa Vibes">Goa Vibes</option>
+            <option value="Kashmir - The Heavens">Kashmir - The Heavens</option>
+            <option value="Kasool Thrills">Kasool Thrills</option>
+            <option value="Kerela GodsEye">Kerela GodsEye</option>
+            <option value="Assam Purity">Assam Purity</option>
+            <option value="Agra Moments">Agra Moments</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>I agree to the <a href="#">Privacy Poalicy for Bon Voyage Services.</a></span>
+        </div>
+        
+        <button type="submit" >Pay Now</button>
+      </form>
+    
+    
+</body>
+</html> 
